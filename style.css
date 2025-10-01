@@ -1,0 +1,25 @@
+body {
+  font-family: sans-serif;
+  transition: background-color 0.3s;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.panel {
+  text-align: center;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+}
+
+button {
+  margin: 8px;
+  padding: 10px 18px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}

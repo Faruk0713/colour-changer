@@ -4,8 +4,8 @@ const hexP = document.getElementById('hex');
 
 // Button 1: make purple
 btn1.addEventListener('click', () => {
-  document.body.style.backgroundColor = '#6a0dad';
-  hexP.textContent = '#6a0dad';
+  document.body.style.backgroundColor = '#00b3ffff';
+  hexP.textContent = '#00b3ffff';
 });
 
 // Button 2: random color
